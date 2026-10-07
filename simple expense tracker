@@ -1,0 +1,13 @@
+print("Simple Expense Tracker")
+
+food = float(input("Enter food expense: ₹"))
+travel = float(input("Enter travel expense: ₹"))
+shopping = float(input("Enter shopping expense: ₹"))
+
+total = food + travel + shopping
+
+print("\n--- Expense Summary ---")
+print("Food: ₹", food)
+print("Travel: ₹", travel)
+print("Shopping: ₹", shopping)
+print("Total Expense: ₹", total)
